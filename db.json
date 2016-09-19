@@ -1,0 +1,61 @@
+{
+  "users":
+  [
+    {
+    "userId":"124",
+    "userName":"shay",
+    "userMail":"shay@mail.com",
+    "password":"1234",
+    "homeCity":"rishon",
+    "favoriteCities":"tel aviv",
+    "age":"28",
+    "sports":[1,2],
+    "parters":[122]
+  },
+    {
+      "userId":"122",
+      "userName":"liel",
+      "userMail":"liel@mail.com",
+      "password":"1234",
+      "homeCity":"tel aviv",
+      "favoriteCities":"tel aviv",
+      "age":"26",
+      "sports":[1],
+      "parters":[124]
+    }
+  ],
+"sports": [
+  {
+    "sportId":"1",
+    "sportName":"squash",
+    "icon":"fdafad"
+  },
+  {
+    "sportId":"2",
+    "sportName":"football",
+    "icon":"fdafda"
+  }
+],
+"games": [
+  {
+    "owner":"124",
+    "gameId":"11",
+    "sportId":"1",
+    "startDate":"11/9/2016 18:00" ,
+    "Duration":"2",
+    "howManyPlayers":2,
+    "players":[122,124],
+    "location":"1555:1555"
+  },
+  {
+    "owner":"124",
+    "gameId":"12",
+    "sportId":"1",
+    "startDate":"16/9/2016 18:00" ,
+    "Duration":"2",
+    "howManyPlayers":2,
+    "players":[122,124],
+    "location":"1555:1555"
+  }
+]
+}

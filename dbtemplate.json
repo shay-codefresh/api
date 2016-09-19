@@ -1,0 +1,36 @@
+{
+  "users":
+  [
+    {
+    "userId":,
+    "userName":,
+    "userMail":,
+    "password":,
+    "homeCity":,
+    "favoriteCities":,
+    "age":,
+    "sports":,
+    "parters":[]
+  }
+  ],
+"sports": [
+  {
+    "sportId": ,
+    "sportName":,
+    "icon":
+  }
+],
+"games": [
+  {
+    "owner":,
+    "gameId": ,
+    "sportId": ,
+    "startDate": ,
+    "Duration": ,
+    "howManyPlayers":,
+    "courtId":,
+    "players":,
+    "location":
+  }
+]
+}
